@@ -1,0 +1,157 @@
+/*--------------------
+Research
+--------------------*/
+
+.ResearchField {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.RFimage {
+    height: 600px;
+    width: 100%;
+    margin: 0px;
+    display: table;
+}
+.RFname {
+    padding-bottom: 50px;
+    margin: auto;
+    display:table-cell;
+    vertical-align: middle;
+}
+.RFname h1 {
+    font-family: Georgia, Times, "Times New Roman";
+    line-height: 100px;
+    margin: 0px;
+    font-size: 70px;
+    color: #FEC503;
+    text-shadow: 2px 2px 3px #000000;
+}
+.RFnext {
+    margin-top: -50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.RFnext p {
+    font-size: 100px;
+    font-style: bolder;
+    color: #FEC503;
+}
+
+.RFdescription {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 40px 15%;
+    position: relative;
+    background-color: #F6F6F6;
+}
+.RFdescription img {
+    max-width: 80%;
+    max-height: 600px;
+    padding-bottom: 50px;
+    transition: 1s;
+}
+
+.RFdes {
+    padding: 5% 10px;
+    text-align: justify;
+}
+
+.RFdes p {
+    font-size: 20px;
+    line-height: 1.5;
+    transition: 1s;
+}
+
+
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 1079px) {
+    .RFdes p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .RFdescription img {
+        max-width: 60%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .RFdes {
+        padding: 50px 8%;
+        text-align: justify;
+    }
+    .RFdescription {
+        padding: 40px 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .RFname h1 {
+        font-size: 50px;
+    }
+    .RFdes p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .RFdes {
+        padding: 50px 5%;
+        text-align: justify;
+    }
+    .RFdescription {
+        padding: 40px 2%;
+    }
+    .RFdescription img {
+        max-width: 80%;
+    }
+}
+
+.grid {
+    height: 100%;
+    max-width: 80%;
+    padding: 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+figure {
+    padding: 0;
+}
+
+.grid figure figcaption {
+    padding: 0;
+
+}
+
+figcaption p, figcaption h2 {
+    text-shadow: 3px 3px 2px #000000;
+    font-weight: bolder;
+    color: #FFFF00;
+    line-height: 30px;
+}
+
+.gridimage {
+    padding: 0px;
+}
+
+/*--------------------
+style.css > Navigation
+--------------------*/
+
+.navbar-default {
+    background-color: #6A548E;
+    transition: 0.5s;
+}
+.navbar-default .navbar-nav .dropdown-menu {
+    background-color: #6A548E;
+    transition: 0.5s;
+}

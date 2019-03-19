@@ -1,0 +1,50 @@
+/*--------------------
+Openings
+--------------------*/
+
+.OpeningAll {
+    height: 100%;
+    padding: 8% 8%;
+}
+
+.Openinginfo {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+    text-align: justify;
+}
+.Openinginfo li {
+    font-size: 18px;
+    line-height: 28px;
+    list-style: none;
+    text-indent: -0.7em;
+    padding:10px 0;
+}
+
+.Openingimg {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Openingimg img {
+    max-height: 300px;
+}
+
+@media (max-width: 1200px) {
+    .Openinginfo {
+        padding-top: 50px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1079px) {
+    .Openinginfo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

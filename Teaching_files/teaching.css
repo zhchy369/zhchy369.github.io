@@ -1,0 +1,69 @@
+/*--------------------
+Teaching.html
+--------------------*/
+div.Representatives {
+    padding: 0px;
+}
+
+div.Representative {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.ref {
+    width: 80%;
+    margin: auto;
+}
+
+.Lref {
+    background-color: #FFFFFF;
+}
+
+.RPdes {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.RPimage {
+    text-align: center;
+}
+
+.Rref {
+    background-color: #F6F6F6;
+}
+
+.ref .name {
+    font-size: 15px;
+}
+
+.ref .paper {
+    font-size: 23px;
+}
+
+.ref .citation {
+    font-size: 20px;
+}
+.ref .description {
+    text-align: justify;
+}
+
+div.RPdes {
+    height: 100%;
+}
+
+.RPimage img {
+    max-height: 400px;
+    width: 200px;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+    .TDimage {
+        display: none;
+    }
+}

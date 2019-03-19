@@ -1,0 +1,139 @@
+/*--------------------
+Publications
+--------------------*/
+
+.row {
+    margin: auto;
+}
+
+table.publications tr {
+    height: 200px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #F0F0F0;
+
+}
+
+table.publications td.journal img {
+    max-width: 160px;
+    max-height: 190px;
+}
+table.publications td.reference {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table.publications td.TOC {
+    text-align: center;
+}
+
+table.publications td.TOC img {
+    max-width: 300px;
+    max-height: 190px;
+
+}
+
+table.publications tr:nth-child(even) {
+    background-color: #EBF8FF;
+}
+
+@media (max-width: 968px) {
+    table.publications td.TOC {
+        display: none;
+    }
+}
+
+@media (max-width: 568px) {
+    table.publications td.TOC,  table.publications td.journal {
+        display: none;
+    }
+}
+
+.citation .citation_journal {
+    font-style: italic;
+}
+.citation .citation_year {
+    font-weight: bold;
+}
+.citation .citation_volume {
+    font-style: italic;
+}
+
+table.publications td a {
+    font-size: 18px;
+}
+.Pubs h2 {
+    font-size: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: #F0F0F0;
+}
+
+.highlight {
+    color: #269ABC;
+}
+
+
+div.videos {
+    min-height: 300px;
+}
+
+.videos img {
+    height: 250px;
+}
+
+
+/*--------------------
+3 Nav Tabs
+--------------------*/
+.row .nav {
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    background-color: #6A548E;
+    width: 140px;
+}
+
+.row .nav li a {
+    color: #FFFFFF;
+    text-align: right;
+    background-color: #6A548E;
+}
+
+.row .nav li.active > a {
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    background-color: #2F2F2F;
+    border-right: solid 3px #CB0000;
+
+}
+
+.row .nav li a:hover {
+    background-color: #2F2F2F;
+}
+
+.affix-top {
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    background-color: #2F2F2F;
+    width: 250px;
+    position: relative;
+}
+.affix {
+    top: 20px;
+}
+.affix, .affix-bottom {
+    width: 250px;
+}
+.affix-bottom {
+    position: absolute;
+}
+
+@media (max-width: 868px) {
+    .row .PScrollSpy {
+        display: none;
+    }
+    .row .Pubs {
+        width: 100%
+    }
+}

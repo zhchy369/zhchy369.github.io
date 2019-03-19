@@ -1,0 +1,27 @@
+/*--------------------
+Openings
+--------------------*/
+
+.resources {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.resources h2 {
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.resources p {
+    font-size: 15px;
+}
+
+@media (max-width: 1079px) {
+    .Openinginfo {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
